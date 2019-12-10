@@ -1,2 +1,2 @@
 # Dawai
-Rappel de Prise des Médicaments
+Rappel de Prise des Médicaments (Medication Reminder)
