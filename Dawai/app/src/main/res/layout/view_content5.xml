@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <RadioGroup
+           android:id="@+id/instruction"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp">
+
+           <RadioButton
+               android:id="@+id/avant_repas"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Avant repas" />
+
+           <RadioButton
+               android:id="@+id/pendant_repas"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Pendnat le repas" />
+
+           <RadioButton
+               android:id="@+id/apres_repas"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Aprés le repas" />
+
+           <RadioButton
+               android:id="@+id/peu_importe"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Peu importe" />
+       </RadioGroup>
+
+   </LinearLayout>
+
+</RelativeLayout>

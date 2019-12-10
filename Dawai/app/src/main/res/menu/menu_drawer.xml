@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profil"
+                    android:title="Profil"
+                    android:icon="@drawable/ic_account_circle_black_24dp"/>
+                <item
+                    android:icon="@drawable/ic_add_circle_outline_black_24dp"
+                    android:id="@+id/aj_medic"
+                    android:title="Ajouter Medicament" />
+                <item
+                    android:icon="@drawable/ic_add_circle_outline_black_24dp"
+                    android:id="@+id/aj_mes"
+                    android:title="Ajouter Mesure" />
+                <item
+                    android:icon="@drawable/ic_edit_black_24dp"
+                    android:id="@+id/mod_tra"
+                    android:title="Modifier Traitment" />
+    </group>
+        <group android:checkableBehavior="single">
+            <item
+                android:icon="@drawable/ic_list_black_24dp"
+                android:id="@+id/list_medic"
+                android:title="List Medicament" />
+            <item
+                android:icon="@drawable/ic_list_black_24dp"
+                android:id="@+id/list_mesure"
+                android:title="Liste Mesure" />
+            <item
+                android:icon="@drawable/ic_assignment_ind_black_24dp"
+                android:id="@+id/medecins"
+                android:title="médecins" />
+            <item
+                android:icon="@drawable/ic_assignment_black_24dp"
+                android:id="@+id/rdv"
+                android:title="RDV" />
+        </group>
+
+        <group >
+            <item
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:id="@+id/parametre"
+                android:title="Parametre"/>
+        </group>
+        <group >
+            <item
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:id="@+id/apropos"
+                android:title="A Propos"/>
+        </group>
+
+</menu>

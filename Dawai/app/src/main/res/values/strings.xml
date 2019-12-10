@@ -1,0 +1,33 @@
+<resources>
+    <string name="welcome">Welcome In
+ Dawai</string>
+    <string name="app_name">Dawa-i</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="title_activity_forgot">ForgotPassActivity</string>
+    <string-array name="glucose">
+       <item>mg/dl</item>
+       <item>mmol/l</item>
+    </string-array>
+    <string-array name="tension">
+        <item>mmHg</item>
+    </string-array>
+    <string-array name="car">
+        <item>Bpm</item>
+    </string-array>
+    <string-array name="poids">
+       <item>Kg</item>
+       <item>Lb</item>
+    </string-array>
+    <string-array name="temp">
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+
+
+</resources>

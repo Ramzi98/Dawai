@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sélectionner le type de mesure"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="@color/material_red_A200"
+        android:background="@color/grey_900"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_500">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/glycemie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fancy:fb_radius="20dp"
+                fancy:fb_defaultColor="@color/blue_900"
+                fancy:fb_textSize="20dp"
+                fancy:fb_text="Glycémie"
+                android:layout_margin="20dp"
+                fancy:fb_iconResource="@drawable/sugar"
+                android:onClick="mesure"
+                />
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/tension"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fancy:fb_radius="20dp"
+                fancy:fb_defaultColor="@color/blue_900"
+                fancy:fb_textSize="20dp"
+                fancy:fb_text="Tension Artérielle"
+                android:layout_margin="20dp"
+                fancy:fb_iconResource="@drawable/tension"
+                android:onClick="mesure"/>
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/frequence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fancy:fb_radius="20dp"
+                fancy:fb_defaultColor="@color/blue_900"
+                fancy:fb_textSize="20dp"
+                fancy:fb_text="Fréquence Cardiaque"
+                android:layout_margin="20dp"
+                fancy:fb_iconResource="@drawable/cardio"
+                android:onClick="mesure"/>
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/poids"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fancy:fb_radius="20dp"
+                fancy:fb_defaultColor="@color/blue_900"
+                fancy:fb_textSize="20dp"
+                fancy:fb_text="Poids"
+                android:layout_margin="20dp"
+                fancy:fb_iconResource="@drawable/poids"
+                android:onClick="mesure"/>
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fancy:fb_radius="20dp"
+                fancy:fb_defaultColor="@color/blue_900"
+                fancy:fb_textSize="20dp"
+                fancy:fb_text="Température"
+                android:layout_margin="20dp"
+                fancy:fb_iconResource="@drawable/temperature"
+                android:onClick="mesure"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
