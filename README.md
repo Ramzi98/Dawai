@@ -16,3 +16,4 @@ Rappel de Prise des Médicaments (Medication Reminder)
 ![alt tag](https://user-images.githubusercontent.com/29214961/70533330-2a10ba00-1b59-11ea-95d0-aeb78867a789.PNG)
 
 ### Carte heuristique
+![carte heuristique](https://user-images.githubusercontent.com/29214961/94932168-fd070c80-04c8-11eb-81a0-fc58bb68dad6.PNG)
