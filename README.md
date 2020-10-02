@@ -14,3 +14,5 @@ Rappel de Prise des Médicaments (Medication Reminder)
 
 ### Rapport hebdomadaire
 ![alt tag](https://user-images.githubusercontent.com/29214961/70533330-2a10ba00-1b59-11ea-95d0-aeb78867a789.PNG)
+
+### Carte heuristique
